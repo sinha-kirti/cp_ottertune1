@@ -59,6 +59,6 @@ class W_M(object):
         a = np.array(test_data)
         print(a.shape)
         predicted_label = self.model.predict_classes(a)
-        return p   
+        return predicted_label   
 
 

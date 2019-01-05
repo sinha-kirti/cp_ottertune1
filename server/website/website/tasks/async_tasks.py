@@ -525,6 +525,7 @@ def map_workload(target_data):
     target_data['scores'] = scores
     test_model = W_M()
     test_model.fit(Zs, labels)
-    #test_model.predict(test_data)
+    #predicted_label = test_model.predict(test_data)
+    #print(predicted_label)
     return target_data
 
